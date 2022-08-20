@@ -27,7 +27,8 @@ public class Main {
         int year = 2022;
         int YearsToLeapYear =  year % 4;
         int YearOfCentury =year % 100;
-        if (YearsToLeapYear== 0 && YearOfCentury !=0) {System.out.println("этот год високосный");}
+        int YearOf4Century =year % 400;
+        if (YearsToLeapYear== 0 && YearOfCentury !=0||YearOf4Century== 0 ) {System.out.println("этот год високосный");}
         else {System.out.println("этот год не високосный");}
 
         // Task 4
