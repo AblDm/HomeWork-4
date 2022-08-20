@@ -28,7 +28,7 @@ public class Main {
         int YearsToLeapYear =  year % 4;
         int YearOfCentury =year % 100;
         int YearOf4Century =year % 400;
-        if (YearsToLeapYear== 0 && YearOfCentury !=0||YearOf4Century== 0 ) {System.out.println("этот год високосный");}
+        if (YearsToLeapYear== 0 && YearOfCentury !=0||YearOf4Century== 0  ) {System.out.println("этот год високосный");}
         else {System.out.println("этот год не високосный");}
 
         // Task 4
@@ -38,6 +38,7 @@ public class Main {
         else if (deliveryDistance>=20 && deliveryDistance < 60 ) {System.out.println("Потребуется дней: 2");}
         else if (deliveryDistance>=60 && deliveryDistance < 100 ) {System.out.println("Потребуется дней: 3");}
         else {System.out.println(" Ваша карта будет готова к выдаче на следующий день после обращения. \n Выберите и посетите отделение банка в любой удобный для Вас день, в течении меяца ");}
+
 
         // Task 5
         System.out.print("\n\nЗадание 5 \n");
